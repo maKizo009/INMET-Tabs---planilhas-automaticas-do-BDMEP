@@ -20,7 +20,7 @@ Na página seguinte, clique no símbolo de download no canto centro-superior dir
 4. **Importante**: O arquivo .csv do BDMEP precisa ter seus dados de casas decimais separados por ponto ( . ). Caso use vírgula, ele irá falhar.
   O programa fará a conversão para ponto na criação da tabela, então não há problema.
 5. Também vale salientar que você precisa **descompactar** a pasta dos arquivos csv antes de abrir. Caso contrário, o programa irá crashar.
-6. **É essencial** que a planilha modelo (Modelo para Normais Climatológicas 1991-2020.xlsx) esteja na pasta Downloads. Não o exclua, não o renomeie. Caso tenha excluído acidentalmente, baixe novamente deste repositório. 
+6. **É essencial** que a planilha modelo (Modelo para normais climatológicas 1991-2020.xlsx) esteja na pasta Downloads. Não o exclua, não o renomeie. Caso tenha excluído acidentalmente, baixe novamente deste repositório. 
 
 
 Enfim, essas são as dicas e instruções principais para o bom uso do programa. Dediquei vários e vários meses para chegar a essa versão, e essa é a minha pequena contribuição para a meteorologia brasileira.
