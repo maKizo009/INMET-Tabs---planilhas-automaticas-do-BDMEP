@@ -66,13 +66,13 @@ for caminho_completo_para_arquivo in arquivos_csv:
         leitor["Mes"] = leitor["Data"].dt.month
         leitor["Ano"] = leitor["Data"].dt.year
 
-    caminhoOriginal = "Modelo para normais climatológicas 1991-2020.xlsx"
-    novoCaminho = (primeira_linha[6:]+"_BDMEP.xlsx")
+    caminhoOriginal = os.path.expanduser("~\\Downloads\\Modelo para normais climatológicas 1991-2020.xlsx")
+    novoCaminho = os.path.expanduser(f'~\\Documents\\{primeira_linha[6:]}_BDMEP.xlsx')
 
     copyfile(caminhoOriginal, novoCaminho)
 
-    book = load_workbook("Modelo para normais climatológicas 1991-2020.xlsx")
-
+    book = load_workbook(caminhoOriginal)
+    
     for ano in leitor["Ano"].dropna().unique():
         dadosAno = leitor[leitor["Ano"]== ano]
         organizado = pd.DataFrame()
@@ -107,6 +107,8 @@ for caminho_completo_para_arquivo in arquivos_csv:
                     value = "-"
                 ws.cell(row=row, column=col, value=value)
 
-    book.save(novoCaminho)
+    book.save(os.path.expanduser(novoCaminho))
+    label.config(text=f"Tabela da estação de {primeira_linha[6:]} salva na pasta Documentos. Você agora pode encerrar essa aplicação")
+janela.update()
 root.mainloop()
 
