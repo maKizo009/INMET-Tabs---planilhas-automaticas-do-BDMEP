@@ -13,7 +13,7 @@ Ele foi desenvolvido usando Python, Pandas e a biblioteca padrão de interface g
 A versão Windows do arquivo pode ser baixada [aqui](dist/auto_plan_inmet.exe).
 Na página seguinte, clique no símbolo de download no canto centro-superior direito para baixar o arquivo .exe.
 1. O programa, ao menos por enquanto, funciona apenas com arquivos csv baixados do site (https://bdmep.inmet.gov.br/).
-  Arquivos de outros sites, ou até mesmo csv da tabela do mapa das estações ainda não são compatíveis e podem quebrar o código
+  Arquivos de outros sites, ou até mesmo csv da tabela do mapa das estações ainda não são compatíveis e podem quebrar o código. Ele também processa apenas dados de temperatura mínima e máxima. 
 2. Como medida de segurança, o Windows vai impedir o usuário de abrir o executável. Isso é o que se espera, no entanto, pode executar o programa normalmente. Como ele é de código aberto,
    caso o usuário queira, pode gerar uma nova compilação por conta própria, ou fiscalizar o código fonte aqui no Github.
 3. Ao abrir o programa, uma "tela preta" irá aparecer. Isso é normal, é o terminal do Windows. Não a feche enquanto o programa não terminar de executar.
