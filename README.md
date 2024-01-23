@@ -17,7 +17,7 @@ A versão Windows do arquivo pode ser baixada [aqui](dist/auto_plan_inmet.exe)
 - Ao abrir o programa, uma tela preta irá aparecer. Isso é normal. Não a feche enquanto o programa não terminar de executar.
 - **Importante**: O arquivo .csv do BDMEP precisa ter seus dados de casas decimais separados por ponto ( . ). Caso use vírgula, ele irá falhar.
   O programa fará a conversão para ponto na criação da tabela, então não há problema.
-> - Também vale salientar que você precisa **descompactar** a pasta dos arquivos csv antes de abrir. Caso contrário, o programa irá crashar.
+- Também vale salientar que você precisa **descompactar** a pasta dos arquivos csv antes de abrir. Caso contrário, o programa irá crashar.
 
 
 Enfim, essas são as dicas e instruções principais para o bom uso do programa. Dediquei vários e vários meses para chegar a essa versão, e espero que eu ajude a contribuir um pouco para a meteorologia brasileira.
