@@ -7,7 +7,7 @@ Funções do programa:
 - Renomeia os arquivos finais para o nome da estação atualizada
 - Preenche os dados automaticamente
 
-##Instruções
+## **Instruções**
 
 A versão Windows do arquivo pode ser baixada [aqui](dist/auto_plan_inmet.exe)
 - O programa, ao menos por enquanto, funciona apenas com arquivos csv baixados do site (https://bdmep.inmet.gov.br/).
