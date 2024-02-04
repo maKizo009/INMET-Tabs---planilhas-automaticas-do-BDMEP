@@ -1,7 +1,7 @@
 # **SHEETMASTERS** - Gere tabelas de dados históricos do INMET em poucos segundos!
 
-Com o programa, você economiza um tempo precioso. A atividade repetitiva de copy + paste que durava horas agora é feita quase que instantaneamente
-Ele foi desenvolvido usando Python, Pandas e a biblioteca padrão de interface gráfica Tkinter.
+Com o programa, você economiza um tempo precioso. A atividade repetitiva de copy + paste que durava horas agora é feita quase que instantaneamente.
+Esse software foi desenvolvido usando Python, Pandas e a biblioteca padrão de interface gráfica Tkinter.
 
 ## Funções do programa:
 - Cria tabelas prontas em 30 segundos
